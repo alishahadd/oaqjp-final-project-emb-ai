@@ -20,5 +20,5 @@ class TestEmotionDetector(unittest.TestCase):
         self.assertEqual(result_5['dominant_emotion'], 'fear')
 
 
-if _name_ == '_main_':
+if __name__ == '__main__':
     unittest.main()
